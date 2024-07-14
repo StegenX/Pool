@@ -6,7 +6,7 @@
 /*   By: aagharbi <aagharbi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 12:15:49 by aagharbi          #+#    #+#             */
-/*   Updated: 2024/07/10 13:53:49 by aagharbi         ###   ########.fr       */
+/*   Updated: 2024/07/14 10:07:49 by aagharbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	main(int argc, char **argv)
 {
-	int i;
-	int j;
+	int	i;
+	int	j;
 
 	j = 0;
 	i = 1;
@@ -33,5 +33,5 @@ int	main(int argc, char **argv)
 			i++;
 		}
 	}
-		return 0;
+	return (0);
 }

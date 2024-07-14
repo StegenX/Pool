@@ -6,7 +6,7 @@
 /*   By: aagharbi <aagharbi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 12:03:44 by aagharbi          #+#    #+#             */
-/*   Updated: 2024/07/10 12:14:18 by aagharbi         ###   ########.fr       */
+/*   Updated: 2024/07/14 10:06:27 by aagharbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -22,5 +22,5 @@ int	main(int argc, char **argv)
 		i++;
 	}
 	write(1, "\n", 1);
-	return 0;
+	return (0);
 }
