@@ -6,7 +6,7 @@
 /*   By: aagharbi <aagharbi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 12:15:49 by aagharbi          #+#    #+#             */
-/*   Updated: 2024/07/14 10:07:49 by aagharbi         ###   ########.fr       */
+/*   Updated: 2024/07/14 11:48:31 by aagharbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(int argc, char **argv)
 	i = 1;
 	if (argc > 1)
 	{
-		while (argv[i] != '\0')
+		while (argv[i])
 		{
 			j = 0;
 			while (argv[i][j] != '\0')
